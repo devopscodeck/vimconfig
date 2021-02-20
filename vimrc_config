@@ -1,0 +1,34 @@
+"Execucao do gerenciado de plugins
+execute pathogen#infect()  
+
+"Define esquema de cor escura do vim editor
+colorscheme Tomorrow-Night-Eighties
+
+"define o tamanho da identacao
+set tabstop=2        
+
+"identifica o tipo de arquivo e identa
+filetype plugin indent on   
+
+"colore o editor, syntax"
+syntax on                    
+
+"Deixa coerente a identacao com o tamaho de TAB
+set shiftwidth=2             
+
+"Comportamento usual do backspace
+set backspace=2
+
+"Ativa numeração de linhas no arquivo de edição
+set number                   
+
+"Fazer calculo da distancia entre as linhas, expl: se vc estiver na linha 10
+"do codigo, ele recalcula a qntdde de linhas a partir desse ponto
+set relativenumber
+
+"busca incremental - feedback enquanto busco
+set incsearch
+
+"destaque nos resultados
+set hlsearch
+
