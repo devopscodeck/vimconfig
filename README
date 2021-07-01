@@ -1,0 +1,7 @@
+##########README##############
+ABOUT: bundle and reload
+
+O arquivo autoload é onde se localiza o conjunto de processos que o vim carregará por padrão antes de iniciar.
+O arquivo bundle é onde fica localizado todos os plugins que você adicionar, o pathogen(gerenciador de plugins que foi instalado) irá
+cuidoar de carregar cada plugin neste diretório
+Referencia para temas do vim:  https://github.com/chriskempson/tomorrow-theme
